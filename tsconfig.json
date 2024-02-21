@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+       "paths": {
+          "react": ["./node_modules/@types/react"]
+       },
+       "module": "esnext",
+       "target": "ES6",
+       "lib": ["dom", "dom.iterable", "esnext"],
+       "sourceMap": true,
+       "jsx": "react",
+       "resolveJsonModule": true,
+       "moduleResolution": "node",
+       "noImplicitReturns": false,
+       "rootDir": "src",
+       "allowJs": true,
+       "skipLibCheck": true,
+       "allowSyntheticDefaultImports": true,
+       "strict": true,
+       "forceConsistentCasingInFileNames": true,
+       "isolatedModules": true,
+       "noImplicitAny": false,
+       "removeComments": true,
+       "noLib": false,
+       "emitDecoratorMetadata": true,
+       "experimentalDecorators": true,
+       "downlevelIteration": true,
+       "noFallthroughCasesInSwitch": true,
+       "noImplicitThis": true,
+       "strictNullChecks": true,
+       "baseUrl": "./src",
+       "declaration": true,
+       "declarationDir": "types",
+       "emitDeclarationOnly": true
+    },
+    "include": ["./src", "src/global.d.ts"],
+    "exclude": [
+       "**/*.stories.tsx",
+       "node_modules/@storybook",
+       "node_modules",
+       "node_modules/*",
+       "build",
+       "dist",
+       "scripts",
+       "acceptance-tests",
+       "webpack",
+       "jest",
+       "babel.config.js",
+       "src/sw*",
+       "**/*.spec.ts",
+       "**/*.test.ts",
+       "lib"
+    ]
+ }
+ 
